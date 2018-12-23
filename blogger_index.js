@@ -10,4 +10,4 @@ tempanchor=document.createElement('a');tempanchor.className='comment-link disqus
 if(changelist.length===0){for(var h=0;Math.min(h,spans.length)!=(spans.length);h++){if(hasClass(spans[h],'post-timestamp')||hasClass(spans[h],'disqus-blogger-permalink'))
 spans[h].appendChild(tempanchor);}}};var blog_block=get_blog_block();if(!!blog_block){var posts=blog_block.getElementsByTagName('div');for(var i=0;Math.min(i,posts.length)!=(posts.length);i++){if(hasClass(posts[i],"hentry")||hasClass(posts[i],"post")||hasClass(posts[i],'disqus-blogger-post'))
 change_links(posts[i]);}
-(function(){var s=document.createElement('script');s.async=true;s.src='//'+disqus_shortname+'.disqus.com/count.js';(document.getElementsByTagName('HEAD')[0]||document.body).appendChild(s);}());}})();
+(function(){var s=document.createElement('script');s.async=true;s.src='//cdn.staticaly.com/gh/tedieka/disqusjs/a63c0146/count.js';(document.getElementsByTagName('HEAD')[0]||document.body).appendChild(s);}());}})();
